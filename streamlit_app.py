@@ -65,7 +65,6 @@ _IIT Jodhpur_
 - 🧠 Machine Learning & Regression  
 - 🧮 End-to-End ML Pipelines  
 - 🚀 FastAPI & Streamlit Deployment  
-- 🎯 Aim: Senior AI/Data Scientist  
 
 **GitHub:** `Abdulqadir05`  
 """)
