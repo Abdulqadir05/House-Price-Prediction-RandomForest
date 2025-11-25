@@ -9,7 +9,7 @@
 ## 🚀 Live Demo
 
 ### 🔗 **Streamlit App**
-👉 https://house-price-prediction-randomforest-ytgqtwwwrkanjkqrdc8us4.streamlit.app/
+👉 [https://house-price-prediction-randomforest-ytgqtwwwrkanjkqrdc8us4.streamlit.app/](https://house-price-prediction-randomforest-8carvy365dss4xser7hj8v.streamlit.app/#premium-house-price-prediction)
 
 ### 🔗 **Render Deployment**
 👉 https://house-price-streamlit-a4bk.onrender.com/
