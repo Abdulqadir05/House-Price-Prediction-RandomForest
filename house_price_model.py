@@ -36,7 +36,7 @@ sns.heatmap(correlation_matrix, annot=True, cmap="coolwarm" )
 plt.title("Correlation Heatmap")    
 plt.show()
 
-# 🔥 Outlier removal (Top 1% remove)
+# Outlier removal
 df = df[df['price'] < df['price'].quantile(0.99)]
 df = df[df['area'] < df['area'].quantile(0.99)]
 
@@ -132,4 +132,5 @@ plt.title("Residuals Distribution")
 plt.xlabel("Residuals")
 plt.ylabel("Frequency")
 plt.show()
+
 
