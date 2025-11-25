@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Abdulqadir05/House-Price-Prediction-RandomForest/main/1000095826.jpg" width="60%" />
+  <img src="https://github.com/Abdulqadir05/House-Price-Prediction-RandomForest/bob/main/UI.png.png" width="60%" />
 </p>
 
 <h1 align="center">🏡 Premium House Price Prediction</h1>
@@ -76,6 +76,7 @@ GitHub: https://github.com/Abdulqadir05
 <p align="center">
 Made with ❤️ using Python, Scikit-Learn & Streamlit  
 </p>
+
 
 
 
