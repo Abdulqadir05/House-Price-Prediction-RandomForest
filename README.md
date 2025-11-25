@@ -1,101 +1,124 @@
-# 🏡 House Price Prediction – Random Forest Regressor
+# 🏡 House Price Prediction – Random Forest Regressor (Optimized)
 
-A complete **End-to-End Machine Learning Regression Project** built using the **Housing.csv** dataset.  
-This project predicts house prices based on features such as area, bedrooms, bathrooms, parking, and various categorical attributes.
+This project is a **complete End-to-End Machine Learning Regression Pipeline** that predicts house prices using the **Housing.csv** dataset.  
+The workflow includes data cleaning, feature engineering, outlier handling, hyperparameter tuning using **RandomizedSearchCV**, followed by model evaluation & visualization.
 
-This repository follows a **professional DS/ML workflow** including:
-- Data Loading  
-- EDA (Exploratory Data Analysis)  
-- Data Cleaning & Preprocessing  
-- Feature Encoding  
-- Model Building (RandomForestRegressor)  
-- Model Evaluation  
-- Feature Importance  
-- Visualization  
+This version achieves a strong performance with:
+
+### ✅ **R² Score: 0.8021**  
+### ✅ **MAE: ~5.94 Lakhs**  
+### ✅ **RMSE: ~8.59 Lakhs**  
 
 ---
 
-## 📁 Project Structure
-
-```
-house_price/
-│── house_price_model.py      # Full ML code (E2E pipeline)
-│── housing.csv               # Dataset (required for running the model)
-│── README.md                 # Project documentation
-```
-
----
-
-## 🚀 Features
+# 📌 Project Highlights
 
 ### ✔ Complete EDA
 - Dataset overview  
-- Missing value handling  
-- Outlier check  
-- Duplicate removal  
-- Correlation matrix  
-- Pairplot & heatmap  
+- Missing value treatment  
+- Duplicates handling  
+- Correlation analysis  
+- Pairplot & Heatmap visualizations  
 
 ### ✔ Data Preprocessing
 - One-hot encoding  
-- Feature selection  
-- Train/Test split  
+- Outlier removal (top 1%)  
+- Feature transformations  
+- New engineered features  
 
-### ✔ Machine Learning Model
-**Random Forest Regressor**
-- `n_estimators = 300`  
-- `max_depth = 10`  
-- `min_samples_split = 15`  
-- `min_samples_leaf = 5`  
+### ✔ Feature Engineering
+| Feature | Description |
+|--------|-------------|
+| `price_per_sqft` | price ÷ area |
+| `luxury_score`   | bathrooms + stories + parking |
 
-### ✔ Evaluation Metrics
-- MAE  
-- MSE  
-- RMSE  
-- R² Score  
-
-### ✔ Visualizations
-- Correlation Heatmap  
-- Actual vs Predicted plot  
-- Residual distribution  
-- Feature importance bar chart  
+These engineered features significantly boosted model performance.
 
 ---
 
-## 📊 Results
+# 🚀 Model & Tuning
+
+### **Random Forest Regressor** with **RandomizedSearchCV**
+
+Best hyperparameters found:
+
+```python
+{
+ 'max_depth': 19,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 5,
+ 'n_estimators': 249
+}
+```
+
+This configuration gave the best R² and lowest error metrics.
+
+---
+
+# 📊 Model Evaluation
 
 | Metric | Score |
 |--------|--------|
-| MAE | ~ 1,088,047 |
-| MSE | ~ 2.11e+12 |
-| RMSE | ~ 1,455,863 |
-| R² Score | ~ 0.58 |
-
-> The model explains **58% of the variance** in house prices.  
-Further improvements can be achieved via feature engineering, outlier handling, and advanced models like XGBoost.
+| **MAE** | 594,662 |
+| **MSE** | 7.39e+11 |
+| **RMSE** | 859,743 |
+| **R² Score** | **0.8021** |
 
 ---
 
-## 📦 Requirements
+# 🔥 Feature Importance
+
+Most influential features in predicting house prices:
+
+| Feature | Importance |
+|---------|------------|
+| area | 0.27 |
+| price_per_sqft | 0.18 |
+| luxury_score | 0.13 |
+| bathrooms | 0.07 |
+| airconditioning_yes | 0.06 |
+| bedrooms | 0.05 |
+| parking | 0.04 |
+| stories | 0.04 |
+| prefarea_yes | 0.03 |
+| furnishingstatus_unfurnished | 0.03 |
+| guestroom_yes | 0.03 |
+
+---
+
+# 📈 Visualizations Included
+
+- Pairplot  
+- Correlation heatmap  
+- Feature importance bar chart  
+- Actual vs Predicted scatter plot  
+- Residual distribution plot  
+
+These help understand the model behavior & error patterns.
+
+---
+
+# 📦 Installation
 
 Install required libraries:
 
 ```bash
-pip install numpy pandas seaborn matplotlib scikit-learn
+pip install numpy pandas seaborn matplotlib scikit-learn scipy
 ```
 
 ---
 
-## ▶️ How to Run the Project
+# ▶️ How to Run
 
 1. Clone the repository  
 ```bash
-git clone https://github.com/YOUR_USERNAME/House-Price-Prediction-RF.git
+git clone https://github.com/Abdulqadir05/House-Price-Prediction-RandomForest.git
 ```
 
-2. Navigate into folder  
+2. Navigate to project  
 ```bash
-cd House-Price-Prediction-RF/house_price
+cd House-Price-Prediction-RandomForest/house_price
 ```
 
 3. Run the model  
@@ -105,25 +128,27 @@ python house_price_model.py
 
 ---
 
-## 🔥 Future Improvements
+# 🛠 Future Improvements
 
-- Add XGBoost & LightGBM models  
-- Hyperparameter tuning with RandomizedSearchCV  
-- Feature engineering for price per sqft, luxury score, etc.  
-- Deployment using FastAPI / Streamlit  
-- Save model using Pickle / Joblib  
+- Add XGBoost / LightGBM  
+- Deploy using Streamlit / FastAPI  
+- Add model saving (.pkl)  
+- Add cross-validation graphs  
+- Residual error heatmaps  
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Abdul Qadir**  
-Aspiring AI/Data Scientist | ML Practitioner  
-2nd Semester — Growing fast in ML/AI 🚀
+AI/ML Practitioner • Data Science Student • IIT Jodhpur  
+Building strong ML fundamentals & real-world projects.
 
 ---
 
-## ⭐ Contribute
+# ⭐ Contributions
 
-Feel free to fork this project, raise issues, or contribute improvements!
+Feel free to fork, star ⭐, or create pull requests!
+
+
 
