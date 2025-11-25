@@ -35,7 +35,7 @@
 ## 🖼 UI Preview
 
 <p align="center">
-  <img src="https://github.com/Abdulqadir05/House-Price-Prediction-RandomForest/blob/main/UI.png?raw=true" width="90%">
+  <img src="[https://github.com/Abdulqadir05/House-Price-Prediction-RandomForest/blob/main/UI.png?raw=true](https://github.com/Abdulqadir05/House-Price-Prediction-RandomForest/blob/47586510a2d4396b928334fb5ebd9b89d6c5e1f2/UI.png.png)" width="90%">
 </p>
 
 ---
@@ -85,6 +85,7 @@ GitHub: https://github.com/Abdulqadir05
 <p align="center">
 Made with ❤️ using Python, Scikit-Learn & Streamlit  
 </p>
+
 
 
 
