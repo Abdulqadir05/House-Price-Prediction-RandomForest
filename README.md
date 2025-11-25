@@ -1,8 +1,3 @@
-<!-- Banner -->
-<p align="center">
-  <img src="https://github.com/Abdulqadir05/House-Price-Prediction-RandomForest/bob/main/UI.png.png" width="60%" />
-</p>
-
 <h1 align="center">🏡 Premium House Price Prediction</h1>
 <p align="center">
   <b>AI-powered Machine Learning model to predict house prices with Random Forest Regression</b><br>
@@ -76,6 +71,7 @@ GitHub: https://github.com/Abdulqadir05
 <p align="center">
 Made with ❤️ using Python, Scikit-Learn & Streamlit  
 </p>
+
 
 
 
