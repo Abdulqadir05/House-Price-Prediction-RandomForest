@@ -40,7 +40,14 @@
 ---
 
 ## 🧠 Model Workflow
-
+- Data → Cleaning
+- Outlier Removal
+- Feature Engineering
+- Encoding
+- Train/Test Split
+- Random Forest Regression
+- Hyperparameter Tuning
+- Deployment
 
 ---
 
@@ -71,6 +78,7 @@ GitHub: https://github.com/Abdulqadir05
 <p align="center">
 Made with ❤️ using Python, Scikit-Learn & Streamlit  
 </p>
+
 
 
 
