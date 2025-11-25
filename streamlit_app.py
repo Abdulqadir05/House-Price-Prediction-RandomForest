@@ -37,7 +37,7 @@ st.markdown(page_bg, unsafe_allow_html=True)
 
 # -------------------- SIDEBAR --------------------
 with st.sidebar:
-    st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fiticollege.edu%2Fblog%2Fmachine-learning-basics-and-real-world-applications%2F&psig=AOvVaw2mdqT8urpsFaSKIsvAkruL&ust=1764168534174000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNitoqzGjZEDFQAAAAAdAAAAABBj", width=120)
+    st.image("https://github.com/Abdulqadir05/House-Price-Prediction-RandomForest/blob/main/Machine-Learning-Basics.jpg", width=120)
     st.title("👑 Abdul Qadir")
     st.markdown("""
     **AI & Data Science Student (IIT Jodhpur)**  
