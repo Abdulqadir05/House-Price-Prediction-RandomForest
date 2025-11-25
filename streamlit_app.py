@@ -37,7 +37,7 @@ st.markdown(page_bg, unsafe_allow_html=True)
 
 # -------------------- SIDEBAR --------------------
 with st.sidebar:
-    st.image("https://i.imgur.com/7Y7b9ut.png", width=120)
+    st.image("https://raw.githubusercontent.com/Abdulqadir05/House-Price-Prediction-RandomForest/main/1000095826.jpg", width=120)
     st.title("👑 Abdul Qadir")
     st.markdown("""
     **AI & Data Science Student (IIT Jodhpur)**  
