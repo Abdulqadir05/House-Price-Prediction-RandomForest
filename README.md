@@ -71,13 +71,14 @@
 *BS in Applied AI & Data Science – IIT Jodhpur*  
 📌 Machine Learning | AI Engineer | End-to-End Deployment  
 
-GitHub: https://github.com/Abdulqadir05  
+GitHub: https://github.com/Abdulqadir05 /
 Linkedin: https://www.linkedin.com/in/abdul-qadir-533827318/
 ---
 
 <p align="center">
 Made with ❤️ using Python, Scikit-Learn & Streamlit  
 </p>
+
 
 
 
