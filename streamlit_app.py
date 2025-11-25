@@ -37,11 +37,9 @@ st.markdown(page_bg, unsafe_allow_html=True)
 
 # -------------------- SIDEBAR --------------------
 with st.sidebar:
-    st.image("https://github.com/Abdulqadir05/House-Price-Prediction-RandomForest/blob/main/Machine-Learning-Basics.jpg", width=120)
-    st.title("👑 Abdul Qadir")
+    st.title("Abdul Qadir")
     st.markdown("""
     **AI & Data Science Student (IIT Jodhpur)**  
-    **Future Senior AI Engineer**  
     - ML | DL | Python  
     - End-to-End Deployment Expert  
     - Building real ML products 🚀  
