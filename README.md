@@ -1,154 +1,90 @@
-# 🏡 House Price Prediction – Random Forest Regressor (Optimized)
+<!-- Banner -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Abdulqadir05/House-Price-Prediction-RandomForest/main/1000095826.jpg" width="60%" />
+</p>
 
-This project is a **complete End-to-End Machine Learning Regression Pipeline** that predicts house prices using the **Housing.csv** dataset.  
-The workflow includes data cleaning, feature engineering, outlier handling, hyperparameter tuning using **RandomizedSearchCV**, followed by model evaluation & visualization.
-
-This version achieves a strong performance with:
-
-### ✅ **R² Score: 0.8021**  
-### ✅ **MAE: ~5.94 Lakhs**  
-### ✅ **RMSE: ~8.59 Lakhs**  
-
----
-
-# 📌 Project Highlights
-
-### ✔ Complete EDA
-- Dataset overview  
-- Missing value treatment  
-- Duplicates handling  
-- Correlation analysis  
-- Pairplot & Heatmap visualizations  
-
-### ✔ Data Preprocessing
-- One-hot encoding  
-- Outlier removal (top 1%)  
-- Feature transformations  
-- New engineered features  
-
-### ✔ Feature Engineering
-| Feature | Description |
-|--------|-------------|
-| `price_per_sqft` | price ÷ area |
-| `luxury_score`   | bathrooms + stories + parking |
-
-These engineered features significantly boosted model performance.
+<h1 align="center">🏡 Premium House Price Prediction</h1>
+<p align="center">
+  <b>AI-powered Machine Learning model to predict house prices with Random Forest Regression</b><br>
+  Built with ❤️ using Python, Scikit-Learn & Streamlit
+</p>
 
 ---
 
-# 🚀 Model & Tuning
+## 🚀 Live Demo
 
-### **Random Forest Regressor** with **RandomizedSearchCV**
+### 🔗 **Streamlit App**
+👉 https://house-price-prediction-randomforest-ytgqtwwwrkanjkqrdc8us4.streamlit.app/
 
-Best hyperparameters found:
-
-```python
-{
- 'max_depth': 19,
- 'max_features': 'log2',
- 'min_samples_leaf': 1,
- 'min_samples_split': 5,
- 'n_estimators': 249
-}
-```
-
-This configuration gave the best R² and lowest error metrics.
+### 🔗 **Render Deployment**
+👉 https://house-price-streamlit-a4bk.onrender.com/
 
 ---
 
-# 📊 Model Evaluation
+## ✨ Project Highlights
 
-| Metric | Score |
-|--------|--------|
-| **MAE** | 594,662 |
-| **MSE** | 7.39e+11 |
-| **RMSE** | 859,743 |
-| **R² Score** | **0.8021** |
-
----
-
-# 🔥 Feature Importance
-
-Most influential features in predicting house prices:
-
-| Feature | Importance |
-|---------|------------|
-| area | 0.27 |
-| price_per_sqft | 0.18 |
-| luxury_score | 0.13 |
-| bathrooms | 0.07 |
-| airconditioning_yes | 0.06 |
-| bedrooms | 0.05 |
-| parking | 0.04 |
-| stories | 0.04 |
-| prefarea_yes | 0.03 |
-| furnishingstatus_unfurnished | 0.03 |
-| guestroom_yes | 0.03 |
+- ✔ End-to-End Machine Learning Pipeline  
+- ✔ Feature Engineering + Outlier Removal  
+- ✔ Hyperparameter Tuning using **RandomizedSearchCV**  
+- ✔ Deployment on **Streamlit Cloud** & **Render**  
+- ✔ Clean UI with animations & icons  
+- ✔ Real-time price prediction  
 
 ---
 
-# 📈 Visualizations Included
+## 🖼 UI Preview
 
-- Pairplot  
-- Correlation heatmap  
-- Feature importance bar chart  
-- Actual vs Predicted scatter plot  
-- Residual distribution plot  
-
-These help understand the model behavior & error patterns.
+<p align="center">
+  <img src="https://github.com/Abdulqadir05/House-Price-Prediction-RandomForest/blob/main/UI.png?raw=true" width="90%">
+</p>
 
 ---
 
-# 📦 Installation
+## 🔧 Tech Stack
 
-Install required libraries:
-
-```bash
-pip install numpy pandas seaborn matplotlib scikit-learn scipy
-```
-
----
-
-# ▶️ How to Run
-
-1. Clone the repository  
-```bash
-git clone https://github.com/Abdulqadir05/House-Price-Prediction-RandomForest.git
-```
-
-2. Navigate to project  
-```bash
-cd House-Price-Prediction-RandomForest/house_price
-```
-
-3. Run the model  
-```bash
-python house_price_model.py
-```
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=yellow" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/RandomForest-0A0A0A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white" />
+</p>
 
 ---
 
-# 🛠 Future Improvements
+## 🧠 Model Workflow
 
-- Add XGBoost / LightGBM  
-- Deploy using Streamlit / FastAPI  
-- Add model saving (.pkl)  
-- Add cross-validation graphs  
-- Residual error heatmaps  
 
 ---
 
-# 👨‍💻 Author
+## 📊 Feature Importance (Top Features)
+- Area  
+- Price per Sqft  
+- Luxury Score  
+- Bathrooms  
+- Air Conditioning  
+- Location (Preferred Area)  
 
+---
+
+## ▶ Run Locally
+
+
+---
+
+## 👑 Developer  
 **Abdul Qadir**  
-AI/ML Practitioner • Data Science Student • IIT Jodhpur  
-Building strong ML fundamentals & real-world projects.
+*BS in Applied AI & Data Science – IIT Jodhpur*  
+📌 Machine Learning | AI Engineer | End-to-End Deployment  
+
+GitHub: https://github.com/Abdulqadir05  
 
 ---
 
-# ⭐ Contributions
-
-Feel free to fork, star ⭐, or create pull requests!
+<p align="center">
+Made with ❤️ using Python, Scikit-Learn & Streamlit  
+</p>
 
 
 
